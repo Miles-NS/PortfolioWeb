@@ -17,7 +17,7 @@ h3{
   display: block;
 }
 body {
-  background-image: url(/media/background-1.jpg);
+  background-image: url(/media/black.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -30,11 +30,9 @@ body {
     --primary-font: font-family: 'Playfair Display', serif;
     --secondary-font: font-family: 'Playfair Display', serif;
 }
-.navbar-pink{
-    background-color: white;
-}
+
 #about-btn{
    background-color: white; 
    border: transparent;
-   color: var(--primary-color);
+   color: black;
 }
