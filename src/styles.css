@@ -1,20 +1,9 @@
 
-h1{
-    color: white;
-    font-family: var(--primary-font);
-    font-size: large;
-}
-h2 {
-  padding: 160px 0 0 0;
-  color: white;
-  font-family: var(--secondary-font);
-}
-h3{
-  color: white;
-  font-family: var(--secondary-font);  
-}
+
 #selfie {
   display: block;
+  margin-top: 80px;
+  margin-left: 0;
 }
 body {
   background-image: url(/media/black.jpg);
@@ -24,9 +13,9 @@ body {
   background-size: cover;
 }
 :root{
-    --primary-color: #CB545A;
-    --secondary-color: #DACED8;
-    --paragraph-color: #74000D;
+    --primary-color: black;
+    --secondary-color:  #6c6c6d;
+    --paragraph-color: #ffffff;
     --primary-font: font-family: 'Playfair Display', serif;
     --secondary-font: font-family: 'Playfair Display', serif;
 }
@@ -35,4 +24,11 @@ body {
    background-color: white; 
    border: transparent;
    color: black;
+}
+.bg-theme{
+  background-color: var(--primary-color);
+  opacity: 0.8;
+}
+#about-btn{
+  margin-right: 40px;
 }
