@@ -31,7 +31,7 @@ body {
     --secondary-font: font-family: 'Playfair Display', serif;
 }
 
-#about-btn{
+#about-btn, #project-btn{
    background-color: white; 
    border: transparent;
    color: black;
