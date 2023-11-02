@@ -33,25 +33,11 @@ body {
   margin-right: 40px;
 }
 .about-box{
-  background-color: #ffffff;
+  background: rgb(255, 255, 255, 0.8);
   margin: 60px;
   border-radius: 20px;
 }
 .hosting, .api, .vscode{
   font-size: 10px;
   font-weight: bold;
-}
-.skills {
-  display: flex;
-  justify-content: space-evenly;
-  font-size: 30px;
-
-}
-.skills span{
-  background-color: var(--secondary-color);
-  padding: 20px 30px;
-  border-radius: 50%;
-}
-.col-md-6{
-  text-align: center;
 }
