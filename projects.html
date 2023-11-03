@@ -21,49 +21,108 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="src/styles.css">
     <script
       src="https://kit.fontawesome.com/4828bc0292.js"
       crossorigin="anonymous"
     ></script>
+    <style>
+      h1{
+         font-family: "Playfair Display", serif;
+        font-size: 70px;
+        text-align: center;
+        color: black;
+      }
+    </style>
   </head>
   <body>
-    <h1>projects</h1>
+     <nav class="navbar navbar-expand-lg bg-theme">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white" href="#">Nosipho S. Miles</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="/"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="/about.html">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="/projects.html"
+                >My Projects</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="about-box">
+    <h1 class="mb-5"> My projects</h1>
     <div class="container">
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-sm-4">
             <div class="card" style="width: 18rem">
-              <img src="media/basicsproj.png" class="card-img-top" alt="landing page" width="300"/>
+              <img src="media/basicsproj.png" class="card-img-top img-flex" alt="landing page" width="300"/>
               <div class="card-body">
                 <p class="card-text">
                   Coded a simple landing page for basics project.
-                  <div><i class="fa-brands fa-html5"><i class="fa-brands fa-css3-alt"></i></i></div>
+                  <div><i class="fa-brands fa-html5 fs-5 p-2"><i class="fa-brands fa-css3-alt fs-5 p-2"></i></i></div>
                 </p>
+                 <a href="#"><i class="fa-solid fa-link fs-4 p-2"></i></a>
+                <a href="#"><i class="fa-brands fa-github fs-4 p-2"></i></a>
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-sm-4">
             <div class="card" style="width: 18rem">
-              <img src="media/weatherApp.png" class="card-img-top" alt="Weather App" width="300" />
+              <img src="media/weatherApp.png" class="card-img-top img-flex" alt="Weather App" width="300" />
               <div class="card-body">
                 <p class="card-text">
                   Coded a weather app using an API, HTML, CSS and JAVASCRIPT.
-                  <div><i class="fa-brands fa-html5"></i><i class="fa-brands fa-css3-alt"></i><i class="fa-brands fa-bootstrap"></i><i class="fa-brands fa-js"></i></div>
+                  <div><i class="fa-brands fa-html5 fs-5 p-2"></i><i class="fa-brands fa-css3-alt fs-5 p-2"></i><i class="fa-brands fa-bootstrap fs-5 p-2"></i><i class="fa-brands fa-js p-2"></i></div>
                 </p>
+                 <a href="#"><i class="fa-solid fa-link fs-4 p-2"></i></a>
+                 <a href="#"><i class="fa-brands fa-github fs-4 p-2"></i></a>
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-sm-4">
             <div class="card" style="width: 18rem">
-              <img src="..." class="card-img-top" alt="..." width="300"/>
+              <img src="media/porfolio.png" class="card-img-top img-flex" alt="portfolio project" width="300"/>
               <div class="card-body">
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Coded a professional responsive portfolio using HTML and CSS.
+                  <div><i class="fa-brands fa-html5 fs-5 p-2"></i><i class="fa-brands fa-css3-alt fs-5 p-2"></i></div>
                 </p>
+                <a href="#"><i class="fa-solid fa-link fs-4 p-2"></i></a>
+                <a href="#"><i class="fa-brands fa-github fs-4 p-2"></i></a>
               </div>
             </div>
           </div>
         </div>
+      </div>
+      <a href="#" class="btn btn-primary shadow my-5 " id="hub-btn"
+            >My Github</a
+          >
+          <a
+            href="#"
+            class="btn btn-primary shadow my-5"
+            id="contact-btn"
+            >Contact me</a
+          >
       </div>
   </body>
 </html>

@@ -20,7 +20,7 @@ body {
     --secondary-font: font-family: 'Playfair Display', serif;
 }
 
-#about-btn, #project-btn{
+#about-btn, #project-btn, #contact-btn, #hub-btn{
    background-color: white; 
    border: transparent;
    color: black;
@@ -29,7 +29,7 @@ body {
   background-color: var(--primary-color);
   opacity: 0.8;
 }
-#about-btn{
+#about-btn, #hub-btn{
   margin-right: 40px;
 }
 .about-box{
@@ -40,4 +40,10 @@ body {
 .hosting, .api, .vscode{
   font-size: 10px;
   font-weight: bold;
+}
+.navbar-nav {
+  display: flex;
+  justify-content: end;
+  padding: 0;
+  margin: 0;
 }
