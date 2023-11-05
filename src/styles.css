@@ -27,23 +27,22 @@ body {
 }
 .bg-theme{
   background-color: var(--primary-color);
-  opacity: 0.8;
 }
 #about-btn, #hub-btn{
   margin-right: 40px;
 }
 .about-box{
   background: rgb(255, 255, 255, 0.8);
-  margin: 60px;
+  margin: 40px;
   border-radius: 20px;
 }
 .hosting, .api, .vscode{
   font-size: 10px;
   font-weight: bold;
 }
-.navbar-nav {
-  display: flex;
-  justify-content: end;
-  padding: 0;
-  margin: 0;
+.col-md, .col-md-6{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
 }
