@@ -40,9 +40,20 @@ body {
   font-size: 10px;
   font-weight: bold;
 }
-.col-md, .col-md-6{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      
+footer{
+  margin: 60px 0;
+}
+footer .social-links a{
+  margin: 0 20px;
+  color:var(--secondary-color);
+  background-color: var(--paragraph-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover{
+  color: var(--paragraph-color);
+  background-color: var(--primary-color);
+
 }
